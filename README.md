@@ -1,10 +1,23 @@
-# Passi post-clone di una repo di Laravel
-1. Clono la repo del nuovo esercizio (che probabilmente è la copia del template)
-2. Copio il file .env.example e lo rinomino in .env (senza cancellare il file .env.example)
-3. Apro il terminale ed eseguo il comando composer install
-4. Dopo l'esecuzione di composer install, eseguo nel terminale il comando php artisan key:generate
-5. Dopo l'esecuzione di php artisan key:generate, eseguo nel terminale il comando npm i
-6. Dopo l'esecuzione di npm i:
-    a. Avvio il server di Laravel con php artisan serve e di fianco avvio npm run dev
-    b. Eseguo il comando npm run build e poi avvio il server di Laravel con php artisan serve
+# Esercizio 
+
+LARAVEL MIGRATION SEEDER 
+
+Creiamo una tabella trains e relativa Migration
+Ogni treno dovrà avere:
+Azienda
+Stazione di partenza
+Stazione di arrivo
+Orario di partenza
+Orario di arrivo
+Codice Treno
+Numero Carrozze
+In orario
+Cancellato
+
+È probabile che siano necessarie altre colonne per far funzionare la tabella nel modo corretto ; ...
+
+Inserite inizialmente i dati tramite PhpMyAdmin.
+Create Model relativo ed un Controller per mostrare nella home page tutti i treni che sono in partenza dalla data odierna.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Proseguiamo con l'esercizio, sempre nella stessa repo, aggiungiamo un seeder per la classe Train usando FakerPHP.
 
